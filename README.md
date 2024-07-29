@@ -1,5 +1,5 @@
 # 💫 About Me:
-Computer engineer 
+Computer Engineer 
 <br>Web Developer<br> 
 Passionate about Software <br><br>
 
