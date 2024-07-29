@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm senior computer engineering student. 
+Computer engineer 
 <br>Web Developer<br> 
 Passionate about Software <br><br>
 
