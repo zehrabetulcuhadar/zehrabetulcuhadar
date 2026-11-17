@@ -8,7 +8,7 @@
 
 - 💼 **Software Development Specialist**, working across front end and back end with **.NET** and **Angular**
 - 🔎 I research what I don't know yet, write about it, and share it here, **one new star in my sky every week**
-- 🏗️ Growing toward **software architecture** and team leadership
+- 🏗️ Growing toward **software architecture**
 - 🌍 Improving my **English** every week
 - 🤝 I use AI tools every day and keep learning how to work with them well
 
