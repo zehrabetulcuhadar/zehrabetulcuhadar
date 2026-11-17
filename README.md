@@ -26,13 +26,15 @@
 
 ## 🌌 My Learning Sky
 
-Every topic is a planet, every weekly post is a star. Posts are in **English and Türkçe**, each with a small example.
+Every topic is a planet, every weekly post is a star. **Click a planet** to see its posts. Posts are in **English and Türkçe**, each with a small example.
 
 <div align="center">
 
-<a href="https://github.com/zehrabetulcuhadar/learning-sky">
-  <img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky.svg" alt="My learning sky: topic planets with a star for every post" width="100%" />
-</a>
+<p><a href="https://github.com/zehrabetulcuhadar/learning-sky/blob/main/topics/dotnet.md"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-0.svg" width="16.6%" alt="~/dotnet"></a><a href="https://github.com/zehrabetulcuhadar/learning-sky/blob/main/topics/angular.md"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-1.svg" width="16.6%" alt="~/angular"></a><a href="https://github.com/zehrabetulcuhadar/learning-sky/blob/main/topics/typescript.md"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-2.svg" width="16.6%" alt="~/typescript"></a><a href="https://github.com/zehrabetulcuhadar/learning-sky/blob/main/topics/architecture.md"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-3.svg" width="16.6%" alt="~/architecture"></a><a href="https://github.com/zehrabetulcuhadar/learning-sky/blob/main/topics/systemdesign.md"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-4.svg" width="16.6%" alt="~/system-design"></a><a href="https://github.com/zehrabetulcuhadar/learning-sky/blob/main/topics/english.md"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-5.svg" width="16.6%" alt="~/english"></a></p>
+
+</div>
+
+<div align="center">
 
 **[Read all learnings →](https://github.com/zehrabetulcuhadar/learning-sky)**
 
