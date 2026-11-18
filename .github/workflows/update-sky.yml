@@ -1,0 +1,66 @@
+# Profile README: copies the learning sky (planet tiles + star counter) from the learning-sky repo.
+# Put this file at .github/workflows/update-sky.yml in the zehrabetulcuhadar/zehrabetulcuhadar repo.
+#
+# Runs:
+#   - right away when learning-sky changes (learning-sky's Action sends "learning-sky-updated"),
+#   - every 3 hours as a safety net (also 00:40 Istanbul, after learning-sky's nightly run),
+#   - by hand: Actions tab -> Update learning sky -> Run workflow.
+# The sky goes between <!-- SKY:START --> and <!-- SKY:END --> in README.md. If the markers are missing,
+# the first run finds the old learning-sky tile block, replaces it and adds the markers itself.
+name: Update learning sky
+ 
+on:
+  repository_dispatch:
+    types: [learning-sky-updated]
+  schedule:
+    - cron: "40 */3 * * *"
+  workflow_dispatch:
+ 
+permissions:
+  contents: write
+ 
+concurrency:
+  group: update-sky
+  cancel-in-progress: false
+ 
+jobs:
+  sky:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Copy the sky block from learning-sky
+        run: |
+          curl -fsSL "https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-embed.md?t=$(date +%s)" -o "$RUNNER_TEMP/sky-embed.md"
+          python3 - "$RUNNER_TEMP/sky-embed.md" <<'PY'
+          import re, sys
+          from pathlib import Path
+          embed = Path(sys.argv[1]).read_text(encoding="utf-8").strip()
+          readme = Path("README.md")
+          text = readme.read_text(encoding="utf-8")
+          block = f"<!-- SKY:START -->\n<!-- Filled automatically from the learning-sky repo. Do not edit by hand. -->\n{embed}\n<!-- SKY:END -->"
+          markers = re.compile(r"<!-- SKY:START -->.*?<!-- SKY:END -->", re.S)
+          old_tiles = re.compile(r'<div align="center">\s*<p><a href="https://github\.com/zehrabetulcuhadar/learning-sky/blob/main/topics/.*?</p>\s*</div>', re.S)
+          if markers.search(text):
+              new = markers.sub(lambda m: block, text, count=1)
+          elif old_tiles.search(text):
+              new = old_tiles.sub(lambda m: block, text, count=1)
+          else:
+              sys.exit("README.md has no <!-- SKY:START --> / <!-- SKY:END --> markers and no old sky block to replace")
+          if new != text:
+              readme.write_text(new, encoding="utf-8")
+              print("README sky updated")
+          else:
+              print("README sky already up to date")
+          PY
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: update learning sky"
+            git push
+          fi
+ 
