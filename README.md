@@ -28,11 +28,20 @@
 
 Every topic is a planet, every weekly post is a star. **Click a planet** to see its posts. Posts are in **English and Türkçe**, each with a small example.
 
+<!-- SKY:START -->
+<!-- Filled automatically from the learning-sky repo. Do not edit by hand. -->
 <div align="center">
 
-<p><a href="https://github.com/zehrabetulcuhadar/learning-sky/blob/main/topics/dotnet.md"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-0.svg" width="16.6%" alt="~/dotnet"></a><a href="https://github.com/zehrabetulcuhadar/learning-sky/blob/main/topics/angular.md"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-1.svg" width="16.6%" alt="~/angular"></a><a href="https://github.com/zehrabetulcuhadar/learning-sky/blob/main/topics/typescript.md"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-2.svg" width="16.6%" alt="~/typescript"></a><a href="https://github.com/zehrabetulcuhadar/learning-sky/blob/main/topics/architecture.md"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-3.svg" width="16.6%" alt="~/architecture"></a><a href="https://github.com/zehrabetulcuhadar/learning-sky/blob/main/topics/systemdesign.md"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-4.svg" width="16.6%" alt="~/system-design"></a><a href="https://github.com/zehrabetulcuhadar/learning-sky/blob/main/topics/english.md"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-5.svg" width="16.6%" alt="~/english"></a></p>
+<p><a href="https://github.com/zehrabetulcuhadar/learning-sky/blob/main/topics/basics.md"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-0.svg?v=b8835265" width="11.1%" alt="~/basics"></a><a href="https://github.com/zehrabetulcuhadar/learning-sky/blob/main/topics/backend.md"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-1.svg?v=b8835265" width="11.1%" alt="~/backend"></a><a href="https://github.com/zehrabetulcuhadar/learning-sky/blob/main/topics/frontend.md"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-2.svg?v=b8835265" width="11.1%" alt="~/frontend"></a><a href="https://github.com/zehrabetulcuhadar/learning-sky/blob/main/topics/data.md"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-3.svg?v=b8835265" width="11.1%" alt="~/data"></a><a href="https://github.com/zehrabetulcuhadar/learning-sky/blob/main/topics/quality.md"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-4.svg?v=b8835265" width="11.1%" alt="~/quality"></a><a href="https://github.com/zehrabetulcuhadar/learning-sky/blob/main/topics/architecture.md"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-5.svg?v=b8835265" width="11.1%" alt="~/architecture"></a><a href="https://github.com/zehrabetulcuhadar/learning-sky/blob/main/topics/ai.md"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-6.svg?v=b8835265" width="11.1%" alt="~/ai"></a><a href="https://github.com/zehrabetulcuhadar/learning-sky/blob/main/topics/english.md"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-7.svg?v=b8835265" width="11.1%" alt="~/english"></a><a href="https://github.com/zehrabetulcuhadar/learning-sky/blob/main/topics/news.md"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-8.svg?v=b8835265" width="11.1%" alt="~/news"></a></p>
 
 </div>
+
+<div align="center">
+
+<a href="https://github.com/zehrabetulcuhadar/learning-sky#-posts"><img src="https://raw.githubusercontent.com/zehrabetulcuhadar/learning-sky/main/sky-stats.svg?v=b8835265" width="100%" alt="0 stars in the learning sky"></a>
+
+</div>
+<!-- SKY:END -->
 
 <div align="center">
 
